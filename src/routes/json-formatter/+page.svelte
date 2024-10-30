@@ -1,18 +1,18 @@
 <script>
-  import { JSONEditor } from 'svelte-jsoneditor'
-
-  let content = {
-    text: undefined, // can be used to pass a stringified JSON document instead
-    json: {
-      array: [1, 2, 3],
-      boolean: true,
-      color: '#82b92c',
-      null: null,
-      number: 123,
-      object: { a: 'b', c: 'd' },
-      string: 'Hello World'
-    }
-  }
+//  import { JSONEditor } from 'svelte-jsoneditor'
+//
+//  let content = {
+//    text: undefined, // can be used to pass a stringified JSON document instead
+//    json: {
+//      array: [1, 2, 3],
+//      boolean: true,
+//      color: '#82b92c',
+//      null: null,
+//      number: 123,
+//      object: { a: 'b', c: 'd' },
+//      string: 'Hello World'
+//    }
+//  }
 
 </script>
 
@@ -23,7 +23,6 @@
 
 <h1>Json formatter and validator</h1>
 <div class=editor>
-  <JSONEditor bind:content />
 </div>
 
 
