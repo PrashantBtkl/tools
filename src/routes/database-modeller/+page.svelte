@@ -3,8 +3,8 @@ import DatabaseModeller from '../../lib/components/database_modeller.svelte';
 </script>
 
 <svelte:head>
-<meta name="description" content="json formatter and validator online">
-<title>json formatter and validator</title>
+<meta name="description" content="database modeller, create sql tables online">
+<title>database modeller</title>
 </svelte:head>
 
 <DatabaseModeller />

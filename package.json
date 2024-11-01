@@ -26,6 +26,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"lucide-svelte": "^0.454.0",
 		"svelte-jsoneditor": "^0.23.8"
 	}
 }
