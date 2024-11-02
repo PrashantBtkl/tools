@@ -1,9 +1,10 @@
 <script>
-  import { Database, Lock } from 'lucide-svelte';
+  import { Wrench, Database, Lock } from 'lucide-svelte';
 
   const tools = [
     { name: 'Database Modeller', href: '/database-modeller', icon: Database },
     { name: 'Chmod Calculator', href: '/chmod-calculator', icon: Lock },
+    { name: 'Json Validate Online', href: '/json-validate-online', icon: Wrench },
   ];
 </script>
 
